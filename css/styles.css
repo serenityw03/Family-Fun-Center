@@ -4,4 +4,6 @@ body {
 
 .navbar {
   font-family:"Pacifico",Times,sans-serif;
+  font-size: 80px;
+  display: inline;
 }
