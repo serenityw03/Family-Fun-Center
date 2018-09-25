@@ -5,6 +5,7 @@ body {
 .navbar {
   font-family:
 display: inline;
+background-color: white;
 }
 
 <style>
@@ -30,5 +31,9 @@ body {margin:0}
 
 .active {
   background-color: #4CAF50;
+}
+
+#Home {
+
 }
 </style>
