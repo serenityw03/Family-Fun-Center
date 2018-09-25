@@ -1,3 +1,7 @@
 body {
   background-color: red;
 }
+
+.navbar {
+  font-family:"Pacifico",Times,sans-serif;
+}
