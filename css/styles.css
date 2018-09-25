@@ -3,6 +3,6 @@ body {
 }
 
 .navbar {
-  font-family:Notable,Times,sans-serif;
-
+  font-family:
+display: inline;
 }
