@@ -11,7 +11,8 @@ background-color: blue;
 body {margin:0}
 
 .icon-bar {
-  width: 500px;
+  width: 400px;
+  length: 200px;
   background-color: #00ff99;
 }
 
