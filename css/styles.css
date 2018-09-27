@@ -25,9 +25,10 @@ align-self: center;
     width: 100%;
     border: none;
     outline: none;
-    text-align: left;
+    text-align: center;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 24px;
+    font-family: "Pacifico";
 }
 
 /* Change background color of buttons on hover */
@@ -44,7 +45,7 @@ align-self: center;
 .tabcontent {
     float: left;
     padding: 0px 12px;
-    border: 1px solid #ccc;
+    border: 8px solid black;
     width: 70%;
     border-left: none;
     height: 300px;
