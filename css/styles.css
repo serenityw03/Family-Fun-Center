@@ -29,12 +29,7 @@ align-self: center;
     font-size: 24px;
     font-family: "Pacifico";
 }
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-/* Change background color of buttons on hover */
+
 .tab button:hover {
     background-color: lavender;
 }
@@ -61,5 +56,11 @@ align-self: center;
     clear: both;
     display: table;
 }
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+/* Change background color of buttons on hover */
 </style>
 </style>
