@@ -11,7 +11,7 @@ align-self: center;
 .tab {
     float: left;
     background-color: white;
-    width: 30%;
+    width: 80px;
     height: 150px;
 }
 
