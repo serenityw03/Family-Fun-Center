@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body{
+  height:100%;
+  width: 100%;
+}
 /* Style the tab */
 .tab {
   float: left;
@@ -52,6 +56,3 @@
   clear: both;
   display: table;
 }
-
-.bg-image {
-  background-image: url("https://images.pexels.com/photos/941552/pexels-photo-941552.jpeg?cs=srgb&dl=close-up-cracks-design-941552.jpg&fm=jpg");
