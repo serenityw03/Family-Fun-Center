@@ -1,12 +1,13 @@
+html {
+  background-image: url("https://images.pexels.com/photos/941552/pexels-photo-941552.jpeg?auto=compress&cs=tinysrgb&h=350");
+  background-repeat: no-repeat;
+}
 .navbar {
   background-color: white;
   text-align: center;
 }
 
-body{
-  height:100%;
-  width: 100%;
-}
+
 /* Style the tab */
 .tab {
   float: left;
