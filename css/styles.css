@@ -1,6 +1,6 @@
 html {
-  background-image: url("https://images.pexels.com/photos/941552/pexels-photo-941552.jpeg?auto=compress&cs=tinysrgb&h=350");
-  background-repeat: no-repeat;
+  background-image: url("https://st2.depositphotos.com/1837303/10295/i/950/depositphotos_102956028-stock-photo-marble-texture-background.jpg");
+  height:100%;
 }
 .navbar {
   background-color: white;
@@ -32,7 +32,7 @@ html {
 }
 
 .tab button:hover {
-  background-color: lavender;
+  background-color: plum;
 }
 
 /* Create an active/current "tab button" class */
