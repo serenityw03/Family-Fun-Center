@@ -24,7 +24,6 @@ p {
 .table {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;
 }
 
 .card {
