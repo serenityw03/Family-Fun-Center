@@ -8,15 +8,7 @@ html {
 }
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
-body {
-  background: #eceff1;
-}
 
-h1 {
-	text-align: center;
-	font-family: 'Balthazar', serif;
-	letter-spacing: 2px;
-}
 p {
   margin: 2px 0;
 }
@@ -56,8 +48,8 @@ p {
 }
 
 .yellow { background: #f8f218; }
-.lightblue { background: #c1dced; }
-.darkblue { background: #317cd5; }
+.pink { background: #ff6666; }
+.orange { background: #ff9966; }
 
 .eyebrow {
   display: block;
