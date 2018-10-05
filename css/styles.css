@@ -12,10 +12,13 @@ html {
 p {
   margin: 2px 0;
 }
-
+div.relative {
+  position: relative;
+  left: 150px;
+}
 .table {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   flex-flow: row wrap;
 }
 
