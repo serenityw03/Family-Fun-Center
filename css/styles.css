@@ -14,7 +14,7 @@ p {
 }
 div.relative {
   position: relative;
-  left: 200px;
+  left: 150px;
 }
 .table {
   display: flex;
@@ -34,6 +34,7 @@ div.relative {
   margin: 10px;
   box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
+
 }
 
 .property {
