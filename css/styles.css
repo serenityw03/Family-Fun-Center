@@ -15,6 +15,7 @@ p {
 div.relative {
   position: relative;
   left: 150px;
+  background-color: blue;
 }
 .table {
   display: flex;
