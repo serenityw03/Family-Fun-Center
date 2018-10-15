@@ -14,11 +14,6 @@ p {
   margin: 2px 0;
 }
 
-div.relative {
-  position: relative;
-  left: 150px;
-  background-color: blue;
-}
 
 .table {
   display: flex;
