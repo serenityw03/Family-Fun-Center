@@ -15,7 +15,12 @@ p {
 }
 
 
-
+.table {
+  display: flex;
+  justify-content: right;
+  flex-flow: row wrap;
+  background-color: red;
+}
 
 .card {
   width: 340px;
