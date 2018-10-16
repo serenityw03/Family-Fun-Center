@@ -14,7 +14,6 @@ p {
   margin: 2px 0;
 }
 
-
 .table {
   display: flex;
   justify-content: right;
@@ -35,7 +34,6 @@ p {
   box-shadow: 0 0 8px rgba(43, 47, 62, .1);
   transition: 1s all ease;
   background-color: white;
-
 }
 
 .property {
@@ -63,6 +61,7 @@ p {
 .orange {
   background: #ff9966;
 }
+
 .blue {
   background: #3399ff;
 }
