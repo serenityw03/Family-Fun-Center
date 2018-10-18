@@ -6,7 +6,9 @@ body {
   background-color: pink;
   text-align: center;
 }
-
+.container {
+    position: fixed;
+}
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
 p {
