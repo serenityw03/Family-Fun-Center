@@ -112,6 +112,11 @@ p {
   font-size: 10px;
   margin: 10px 0;
 }
+
+*{
+	@include box-sizing(border-box);
+}
+
 }
 body{
 	text-align: center;
