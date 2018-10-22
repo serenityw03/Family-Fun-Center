@@ -18,10 +18,7 @@
     <link href="./css/styles.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
 </head>
-
 <body>
 
 
@@ -41,9 +38,62 @@
       <button class="tablinks" onmouseover="Request"><a href="request.html">Request</a></button>
       <button class="tablinks" onmouseover="MoreInfo"><a href="more.html">More Info</a></button>
       </div>
+<<<<<<< HEAD
 
-  
+
 </form>
+=======
+  <div id="container">
+    <!--This is a division tag for body container-->
+    <div id="body_header">
+      <!--This is a division tag for body header-->
+      <h1>Reservation</h1>
+      <p>Make your appointment easier</p>
+
+    </div>
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend><span class="number">1</span>Your basic details</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" placeholder=" John White (first and last name)" required pattern="[a-zA-Z0-9]+">
+
+        <label for="mail">Email*:</label>
+        <input type="email" id="mail" name="user_email" placeholder="@gmail.com" required>
+
+        <label for="tel">Contact Num:</label>
+        <input type="tel" id="tel" placeholder="Include city code" name="user_num">
+
+      </fieldset>
+
+      <fieldset>
+        <legend><span class="number">2</span>Appointment Details</legend>
+        <label for="appointment_for">Room:</label>
+        <select id="appointment_for" name="appointment_for" required>
+          <option value="coffee">Louis</option>
+          <option value="meeting">Hamilton</option>
+          <option value="Business">Atruim</option>
+          <option value="lunch">Butler</option>
+          </select>
+        <label for="appointment_description">Breakfast:</label>
+        <select id="appointment_description" name="appointment_description" required>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          </select>
+        <label for="date">Arrive:</label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="time">Depart:</label>
+        <input type="date" name="date" value="" required></input>
+        <br>
+        <label for="duration">How many?(PEOPLE)</label>
+        <input type="radio" name="duration" value="30" checked> 1
+        <input type="radio" name="duration" value="60"> 2
+        <input type="radio" name="duration" value="90"> 3
+      </fieldset>
+      <button type="submit">Request For Appointment</button>
+    </form>
+  </div>
+>>>>>>> 5047e36957c227a8582e3bda78596f749f92fa36
 </footer>
 </body>
 </html>
