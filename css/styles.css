@@ -114,7 +114,6 @@ p {
   margin: 10px 0;
 }
 
-<<<<<<< HEAD
 .grid {
   background: green;
   //margin: 0 0 $pad 0;
@@ -160,7 +159,6 @@ p {
 .col-1-8 {
 	width: 12.5%;
 }
-=======
 .Request.html
 {
 	background-color:#5fcf80;
@@ -279,9 +277,6 @@ label.light {
   form {
     max-width: 480px;
   }
-  
-=======
->>>>>>> a0a5e5254ae37e0b2df2a2158b9a1a6bf9354a85
 /* Style the tab */
 .tab {
   float: left;
