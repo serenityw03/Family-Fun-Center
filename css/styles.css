@@ -2,11 +2,11 @@ body {
   background-color: white;
   height: 100%;
 }
+
 .navbar {
   background-color: pink;
   text-align: center;
 }
-
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
@@ -19,7 +19,7 @@ p {
   justify-content: right;
   background-color: green;
   position: relative;
-  }
+}
 
 .card {
   width: 340px;
@@ -36,7 +36,6 @@ p {
   background-color: white;
   position: relative;
   left: 170px;
-
 }
 
 .property {
@@ -115,6 +114,7 @@ p {
   margin: 10px 0;
 }
 
+<<<<<<< HEAD
 .grid {
   background: green;
   //margin: 0 0 $pad 0;
@@ -280,6 +280,8 @@ label.light {
     max-width: 480px;
   }
   
+=======
+>>>>>>> a0a5e5254ae37e0b2df2a2158b9a1a6bf9354a85
 /* Style the tab */
 .tab {
   float: left;
@@ -289,7 +291,6 @@ label.light {
 }
 
 /* Style the buttons inside the tab */
-
 .tab button {
   display: block;
   background-color: inherit;
