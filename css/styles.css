@@ -115,19 +115,6 @@ p {
   margin: 10px 0;
 }
 
-<<<<<<< HEAD
-@import "compass/css3";
-
-@import "compass/reset";
-@import "compass/css3";
-
-
-
-
-// Grid https://codepen.io/chriscoyier/pen/eGcLw
-
-$pad: 10px;
-
 .grid {
   background: green;
   //margin: 0 0 $pad 0;
@@ -174,7 +161,7 @@ $pad: 10px;
 	width: 12.5%;
 }
 =======
-.Request.html 
+.Request.html
 {
 	background-color:#5fcf80;
 }
@@ -292,7 +279,7 @@ label.light {
   form {
     max-width: 480px;
   }
->>>>>>> 5047e36957c227a8582e3bda78596f749f92fa36
+  
 /* Style the tab */
 .tab {
   float: left;
