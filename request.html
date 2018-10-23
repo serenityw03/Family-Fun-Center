@@ -93,6 +93,14 @@
       </fieldset>
           <form action="mailto:serenity.williams@students.jmcss.com" method="post" enctype="text/plain">
       <button type="submit">Request For Appointment</button>
+      <%
+Set myMail = CreateObject("CDO.Message")
+myMail.Subject = "Reservation"
+myMail.From = "someone@example.com"
+myMail.To ="tiana.martin.students@jmcss.org"
+myMail.Send
+set myMail = nothing
+%>
     </form>
   </form>
   </div>
