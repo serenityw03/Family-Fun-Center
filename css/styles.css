@@ -9,6 +9,10 @@ body {
   image: url("");
 }
 
+.request {
+  background-color:#5fcf80;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
 p {
@@ -168,7 +172,7 @@ p {
 	margin:0px auto;
 	text-align:center;
 	font-size:25px;
-  background-color:#5fcf80;
+
 }
 form {
   max-width: 300px;
