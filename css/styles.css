@@ -6,6 +6,7 @@ body {
 .navbar {
   background-color: pink;
   text-align: center;
+  image: url("");
 }
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
