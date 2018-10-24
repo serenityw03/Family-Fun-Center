@@ -6,6 +6,7 @@ body {
 .navbar {
   background-color: grey;
   text-align: center;
+  image: url("");
 }
 
 .request {
