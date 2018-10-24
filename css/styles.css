@@ -94,6 +94,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  font-size: 12px;
 }
 
 .priceTable .qty,
@@ -113,12 +114,17 @@ p {
 .hotel {
   margin-top: 5px;
 }
-
+``
 .disclaimer {
   font-size: 10px;
   margin: 10px 0;
 }
-
+.fancybox {
+  bottom: 50px;
+}
+ p {
+   font-size: 12px;
+ }
 .grid {
   background: green;
   //margin: 0 0 $pad 0;
