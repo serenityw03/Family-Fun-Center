@@ -1,11 +1,12 @@
 body {
-  background-color: white;
+  background-image: url('https://cdn.pixabay.com/photo/2018/07/29/11/03/wallpaper-3569885_960_720.jpg');
   height: 100%;
 }
 
 .navbar {
-  background-color: grey;
+  background-color: #999999;
   text-align: center;
+<<<<<<< HEAD
   image: url("");
 }
 
@@ -22,6 +23,8 @@ body {
 }
 .request {
   background-color:#5fcf80;
+=======
+>>>>>>> dc8ee199a27601a5c6ce16a2303139993fe540db
 }
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
@@ -33,7 +36,6 @@ p {
 .divMainContent {
   display: flex;
   justify-content: right;
-  background-color: green;
   position: relative;
 }
 
@@ -137,7 +139,7 @@ p {
    font-size: 10px;
  }
 .grid {
-  background: green;
+
   //margin: 0 0 $pad 0;
 
   &:after {
