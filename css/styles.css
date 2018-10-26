@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-image: url(https://c1.staticflickr.com/5/4112/4833864860_6d34fa6b28_b.jpg);
   height: 100%;
 }
 
@@ -7,10 +7,6 @@ body {
   background-color: grey;
   text-align: center;
   image: url("");
-}
-
-.request {
-  background-color:#5fcf80;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
