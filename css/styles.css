@@ -38,7 +38,9 @@ p {
   justify-content: right;
   position: relative;
 }
-
+.divMainLeft{
+  left: 150px;
+}
 .card {
   width: 340px;
   max-height: 460px;
