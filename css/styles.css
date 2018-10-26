@@ -1,10 +1,10 @@
 body {
-  background-image: url('https://st.depositphotos.com/1557010/3938/i/950/depositphotos_39388547-stock-photo-natural-marble-with-pattern-seamless.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2018/07/29/11/03/wallpaper-3569885_960_720.jpg');
   height: 100%;
 }
 
 .navbar {
-  background-color: grey;
+  background-color: 	#999999;
   text-align: center;
 }
 
@@ -17,7 +17,6 @@ p {
 .divMainContent {
   display: flex;
   justify-content: right;
-  background-color: green;
   position: relative;
 }
 
