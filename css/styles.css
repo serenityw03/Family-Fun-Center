@@ -6,6 +6,25 @@ body {
 .navbar {
   background-color: #999999;
   text-align: center;
+<<<<<<< HEAD
+  image: url("");
+}
+
+.container {
+  position: relative;
+  left: 50px;
+}
+
+.carousel-inner {
+  width: 800px;
+  height: 500px;
+  left: 300px;
+
+}
+.request {
+  background-color:#5fcf80;
+=======
+>>>>>>> dc8ee199a27601a5c6ce16a2303139993fe540db
 }
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
