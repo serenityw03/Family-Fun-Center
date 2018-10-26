@@ -1,12 +1,11 @@
 body {
-  background-image: url(https://c1.staticflickr.com/5/4112/4833864860_6d34fa6b28_b.jpg);
+  background-image: url('https://st.depositphotos.com/1557010/3938/i/950/depositphotos_39388547-stock-photo-natural-marble-with-pattern-seamless.jpg');
   height: 100%;
 }
 
 .navbar {
   background-color: grey;
   text-align: center;
-  image: url("");
 }
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
@@ -122,7 +121,6 @@ p {
    font-size: 10px;
  }
 .grid {
-  background: green;
   //margin: 0 0 $pad 0;
 
   &:after {
