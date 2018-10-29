@@ -6,7 +6,6 @@ body {
 .navbar {
   background-color: #999999;
   text-align: center;
-<<<<<<< HEAD
   image: url("");
 }
 
@@ -301,7 +300,6 @@ label.light {
   }
 /* Style the tab */
 .tab {
-  float: left;
   background-color: white;
   width: 120px;
   height: 90px;
