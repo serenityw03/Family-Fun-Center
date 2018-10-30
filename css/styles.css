@@ -12,6 +12,8 @@ body {
 .container {
   position: relative;
   left: 50px;
+  padding-bottom: 150px;
+  padding-left: 80px;
 }
 
 .carousel-inner {
