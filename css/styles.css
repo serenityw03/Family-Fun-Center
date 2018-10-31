@@ -3,7 +3,7 @@ body {
   height: 100%;
 }
 
-.navbar {
+.body_header {
   background-color: #999999;
   text-align: center;
   image: url("");
@@ -13,7 +13,6 @@ body {
   position: relative;
   left: 50px;
   padding-bottom: 150px;
-  padding-left: 80px;
 }
 
 .carousel-inner {
@@ -301,14 +300,14 @@ label.light {
     max-width: 480px;
   }
 /* Style the tab */
-.tab {
+.navbar {
   background-color: white;
   width: 120px;
   height: 90px;
 }
 
 /* Style the buttons inside the tab */
-.tab button {
+.navbar button {
   display: block;
   background-color: inherit;
   color: black;
@@ -322,18 +321,17 @@ label.light {
   font-family: "Pacifico";
 }
 
-.tab button:hover {
+.navbar button:hover {
   background-color: plum;
 }
 
 /* Create an active/current "tab button" class */
-.tab button.active {
+.navbar button.active {
   background-color: gray;
 }
 
 /* Style the tab content */
-.tabcontent {
-  float: left;
+.navbarcontent {
   padding: 0px 12px;
   border: 8px solid black;
   width: 70%;
