@@ -3,10 +3,45 @@ body {
   height: 100%;
 }
 
-.body_header {
-  background-color: #999999;
+.navbar {
+  width: 100%;
+background-color: gray;
+overflow: auto;
+
+}
+
+.navbar a {
+  float: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  width: 200px; /* Four links of equal widths */
   text-align: center;
-  image: url("");
+  font-family: "Pacifico";
+
+}
+
+.navbar a:hover {
+  background-color: plum;
+}
+
+.navbar a.active {
+  background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: center;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+.divHeader {
+  background-color: white;
+  background-position: center;
+  border-style: dotted solid;
 }
 
 .container {
@@ -300,14 +335,14 @@ label.light {
     max-width: 480px;
   }
 /* Style the tab */
-.navbar {
+.tab {
   background-color: white;
   width: 120px;
   height: 90px;
 }
 
 /* Style the buttons inside the tab */
-.navbar button {
+.tab button {
   display: block;
   background-color: inherit;
   color: black;
@@ -321,17 +356,18 @@ label.light {
   font-family: "Pacifico";
 }
 
-.navbar button:hover {
+.tab button:hover {
   background-color: plum;
 }
 
 /* Create an active/current "tab button" class */
-.navbar button.active {
+.tab button.active {
   background-color: gray;
 }
 
 /* Style the tab content */
-.navbarcontent {
+.tabcontent {
+  float: left;
   padding: 0px 12px;
   border: 8px solid black;
   width: 70%;
