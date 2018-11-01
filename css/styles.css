@@ -76,10 +76,12 @@ p {
 .divMainLeft{
   left: 150px;
 }
+
+
 .card {
   width: 340px;
   max-height: 460px;
-  border: 1px solid #222;
+  border: 10px solid black;
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
@@ -90,7 +92,8 @@ p {
   transition: 1s all ease;
   background-color: white;
   position: relative;
-  left: 170px;
+  left: 100px;
+
 }
 
 .property {
@@ -166,7 +169,7 @@ p {
 }
 ``
 .disclaimer {
-  font-size: 10px;
+  font-size: 50px;
   margin: 10px 0;
 }
 .fancybox {
@@ -175,6 +178,9 @@ p {
  p {
    font-size: 10px;
  }
+
+
+
 .grid {
 
   //margin: 0 0 $pad 0;
