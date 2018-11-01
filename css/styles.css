@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://media.taloon.com/image/upload/q_70,f_auto,w_400,h_650,c_limit/cloud/k/sandberg/tapetti_sandberg_viola_sininen_053x1005_m_non_woven_1.jpg');
+
   height: 100%;
 }
 
@@ -48,6 +48,7 @@ overflow: auto;
   position: relative;
   left: 50px;
   padding-bottom: 150px;
+  background-color: green;
 }
 
 .carousel-inner {
@@ -70,6 +71,7 @@ p {
   display: flex;
   justify-content: right;
   position: relative;
+  background-color: green;
 }
 .divMainLeft{
   left: 150px;
