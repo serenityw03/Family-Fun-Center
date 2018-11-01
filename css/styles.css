@@ -60,20 +60,16 @@ overflow: auto;
   background-color:#5fcf80;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
-
 p {
   margin: 2px 0;
 }
 
-.divMainContent {
+.table {
   display: flex;
-  justify-content: right;
-  position: relative;
+  justify-content: center;
+  flex-flow: row wrap;
 }
-.divMainLeft{
-  left: 150px;
-}
+
 .card {
   width: 340px;
   max-height: 460px;
@@ -84,11 +80,8 @@ p {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   margin: 10px;
-  box-shadow: 0 0 8px rgba(43, 47, 62, .1);
+  box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
-  background-color: white;
-  position: relative;
-  left: 170px;
 }
 
 .property {
@@ -105,21 +98,9 @@ p {
   transition: 1s all ease;
 }
 
-.yellow {
-  background: #f8f218;
-}
-
-.pink {
-  background: #ff6666;
-}
-
-.orange {
-  background: #ff9966;
-}
-
-.blue {
-  background: #3399ff;
-}
+.yellow { background: #f8f218; }
+.lightblue { background: #c1dced; }
+.darkblue { background: #317cd5; }
 
 .eyebrow {
   display: block;
@@ -142,7 +123,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  font-size: 12px;
+
 }
 
 .priceTable .qty,
@@ -162,7 +143,7 @@ p {
 .hotel {
   margin-top: 5px;
 }
-``
+
 .disclaimer {
   font-size: 10px;
   margin: 10px 0;
