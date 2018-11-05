@@ -66,23 +66,17 @@ p {
 }
 
 .table {
-  display: flex;
-<<<<<<< HEAD
+  display: flex;D
   justify-content: center;
   flex-flow: row wrap;
 }
 
-=======
-  justify-content: right;
-  position: relative;
-  background-color: green;
-}
 .divMainLeft{
   left: 150px;
 }
 
 
->>>>>>> b9a47629d80979faa2d86a16379ab4e78415219e
+
 .card {
   width: 340px;
   max-height: 460px;
@@ -95,13 +89,10 @@ p {
   margin: 10px;
   box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
-<<<<<<< HEAD
-=======
+
   background-color: white;
   position: relative;
   left: 100px;
-
->>>>>>> b9a47629d80979faa2d86a16379ab4e78415219e
 }
 
 .property {
