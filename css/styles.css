@@ -30,6 +30,7 @@ overflow: auto;
   background-color: white;
 }
 
+<<<<<<< HEAD
 
   .navbar a {
     float: center;
@@ -37,6 +38,8 @@ overflow: auto;
     width: 100%;
     text-align: center;
   }
+=======
+>>>>>>> 6e45cb7ce08462248063eadd66929620080ae692
 
 .divHeader {
   background-color: white;
@@ -105,7 +108,6 @@ p {
   margin: 10px;
   box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
-
   background-color: white;
   position: relative;
   left: 100px;
