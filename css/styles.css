@@ -61,12 +61,11 @@ overflow: auto;
   background-color:#5fcf80;
 }
 
-<<<<<<< HEAD
-=======
+
 @import
 url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
->>>>>>> 2b2466c05f4dbbb34b816f716ed4e6c8ac08e3c4
+
 p {
   margin: 2px 0;
 }
@@ -100,13 +99,11 @@ p {
   margin: 10px;
   box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
-<<<<<<< HEAD
 
   background-color: white;
   position: relative;
   left: 100px;
-=======
->>>>>>> 2b2466c05f4dbbb34b816f716ed4e6c8ac08e3c4
+
 }
 
 .property {
@@ -123,18 +120,13 @@ p {
   transition: 1s all ease;
 }
 
-<<<<<<< HEAD
+
 .pink { background: #ff6666; }
 .blue{ background: #0066ff; }
 .orange { background: #ff9966; }
 .yellow{ background:#ffff66;}
-=======
-.yellow {
-  background: #f8f218;
-}
 
 
->>>>>>> 2b2466c05f4dbbb34b816f716ed4e6c8ac08e3c4
 
 .eyebrow {
   display: block;
