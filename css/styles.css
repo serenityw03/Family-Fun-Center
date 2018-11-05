@@ -30,7 +30,6 @@ overflow: auto;
   background-color: white;
 }
 
-<<<<<<< HEAD
 
   .navbar a {
     float: center;
@@ -38,8 +37,6 @@ overflow: auto;
     width: 100%;
     text-align: center;
   }
-=======
->>>>>>> 6e45cb7ce08462248063eadd66929620080ae692
 
 .divHeader {
   background-color: white;
@@ -71,21 +68,14 @@ p {
   margin: 2px 0;
 }
 
-<<<<<<< HEAD
 .divMainContent {
   display: flex;
   justify-content: right;
   position: relative;
   background-color:;
-=======
-.table {
-  display: flex;D
-  justify-content: center;
-  flex-flow: row wrap;
->>>>>>> 0c33872d36fcfe40f40e293c4902d1736dae1a0d
-}
 
-.divMainLeft{
+
+.divMainLeft {
   left: 150px;
 }
 
