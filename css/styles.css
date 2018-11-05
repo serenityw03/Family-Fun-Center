@@ -30,7 +30,7 @@ overflow: auto;
   background-color: white;
 }
 
-@media screen and (max-width: 500px) {
+
   .navbar a {
     float: center;
     display: block;
@@ -40,15 +40,13 @@ overflow: auto;
 
 .divHeader {
   background-color: white;
-  background-position: center;
-  border-style: dotted solid;
 }
 
 .container {
   position: relative;
   left: 50px;
   padding-bottom: 150px;
-  background-color: green;
+  background-color:;
 }
 
 .carousel-inner {
@@ -73,7 +71,7 @@ p {
   display: flex;
   justify-content: right;
   position: relative;
-  background-color: green;
+  background-color:;
 }
 .divMainLeft{
   left: 150px;
