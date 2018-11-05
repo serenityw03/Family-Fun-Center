@@ -62,7 +62,8 @@ overflow: auto;
   background-color:#5fcf80;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
+@import
+url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
 p {
   margin: 2px 0;
@@ -78,23 +79,24 @@ p {
   left: 150px;
 }
 
+.table {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
 .card {
   width: 340px;
   max-height: 460px;
-  border: 10px solid black;
+  border: 1px solid #222;
   box-sizing: border-box;
   padding: 10px;
   text-align: center;
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   margin: 10px;
-  box-shadow: 0 0 8px rgba(43, 47, 62, .1);
+  box-shadow: 0 0 8px rgba(43,47,62,.1);
   transition: 1s all ease;
-  background-color: white;
-  position: relative;
-  left: 100px;
-
 }
 
 .property {
@@ -115,17 +117,7 @@ p {
   background: #f8f218;
 }
 
-.pink {
-  background: #ff6666;
-}
 
-.orange {
-  background: #ff9966;
-}
-
-.blue {
-  background: #3399ff;
-}
 
 .eyebrow {
   display: block;
@@ -173,6 +165,10 @@ p {
   font-size: 50px;
   margin: 10px 0;
 }
+
+
+
+
 .fancybox {
   bottom: 60px;
 }
