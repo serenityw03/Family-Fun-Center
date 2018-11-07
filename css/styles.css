@@ -28,7 +28,8 @@ text-decoration-color: white;
 .carousel-inner {
   width: 800px;
   height: 500px;
-  left: 120px;
+  padding-top: 30px;
+  left: 150px;
 
 }
 .border{
