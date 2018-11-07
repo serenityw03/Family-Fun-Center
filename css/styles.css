@@ -3,40 +3,16 @@ background-image: url(https://secure.img1-fg.wfcdn.com/im/98511047/resize-h310-w
 position: absolute;
 }
 
-.navbar {
+.divNavigation {
   width: 100%;
-background-color: gray;
-overflow: auto;
-
-}
-
-.navbar a {
-  float: center;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 30px;
-  width: 200px; /* Four links of equal widths */
+  height: 60px;
+  padding-top: 15px;
+  margin: 0px auto;
   text-align: center;
-  font-family: "Pacifico";
-
-}
-
-.navbar a:hover {
-  background-color: plum;
-}
-
-.navbar a.active {
-  background-color: white;
-}
-
-
-  .navbar a {
-    float: center;
-    display: block;
-    width: 100%;
-    text-align: center;
-  }
+background-color: #c2c2d6;
+overflow: auto;
+font-size: 30px;
+text-decoration-color: white;
 
 .divHeader {
   background-color: white;
