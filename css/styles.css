@@ -117,6 +117,16 @@ body {
 
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
+h5.three {
+    border-style: dotted;
+    border-width: 2px;
+    background-color: white;
+}
+ul.three{
+  border-style: dotted;
+  border-width: 2px;
+  background-color: white;
+}
 p {
   margin: 2px 0;
 }
