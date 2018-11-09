@@ -1,7 +1,5 @@
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-background-image: url(https://dty8d8u6se0an.cloudfront.net/media/image/thumbnail/820114_ludmilla_1440x1100.jpg);
+background-image: url("https://dty8d8u6se0an.cloudfront.net/media/image/thumbnail/820114_ludmilla_1440x1100.jpg");
   height: 100%;
 }
 
@@ -18,8 +16,7 @@ text-decoration-color: white;
 
 .divHeader {
   background-color: white;
-=======
-  background-image: url(https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg);
+  background-image: url("https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg");
 }
 
 * {
@@ -51,8 +48,7 @@ body {
 
 .nav > .nav-btn {
   display: none;
-=======
-  background-image: url(https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg);
+  background-image: url("https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg");
 }
 
 * {
@@ -182,7 +178,6 @@ ul.three{
 }
 p {
   margin: 2px 0;
->>>>>>> 3efc7840a7e8d65b62e0d4d4f470259f17bdf483
 }
 
 .nav > .nav-links {
@@ -191,7 +186,6 @@ p {
   font-size: 18px;
 }
 
-<<<<<<< HEAD
 .nav > .nav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
@@ -252,8 +246,6 @@ p {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
->>>>>>> 3efc7840a7e8d65b62e0d4d4f470259f17bdf483
-}
 
 .container {
   position: relative;
@@ -507,7 +499,7 @@ p {
     padding: 6px;
     height: 32px;
     border-radius: 2px;
-=======
+
   .divMainLeft {
     left: 150px;
   }
@@ -773,7 +765,6 @@ p {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     border-radius: 100%;
->>>>>>> 3efc7840a7e8d65b62e0d4d4f470259f17bdf483
   }
 
   button {
@@ -790,7 +781,6 @@ p {
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
   }
-<<<<<<< HEAD
 
   fieldset {
     margin-bottom: 30px;
@@ -830,5 +820,3 @@ p {
   form {
     max-width: 480px;
   }
-=======
->>>>>>> 3efc7840a7e8d65b62e0d4d4f470259f17bdf483
