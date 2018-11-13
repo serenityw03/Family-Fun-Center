@@ -125,14 +125,12 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Balthazar|Nunito:300');
 
 h5.three {
-    border-style: dotted;
-    border-width: 2px;
-    background-color: white;
+  border-style:ridge;
+      background-color: #9999ff;
 }
 ul.three{
-  border-style: dotted;
-  border-width: 2px;
-  background-color: white;
+  border-style:ridge;
+      background-color: #9999ff;
 }
 p {
   margin: 2px 0;
@@ -449,7 +447,7 @@ p {
     display: inline;
   }
 
-  
+
 
   form {
     max-width: 480px;
