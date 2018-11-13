@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
 background-image: url("https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg");
+=======
+background-image: url(https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg);
+>>>>>>> d1c7ad6d7ba31ab61a41937e4f653cb86dfb6ba4
   height: 100%;
 }
 
@@ -17,9 +21,104 @@ text-decoration-color: white;
 
 .divHeader {
   background-color: white;
+<<<<<<< HEAD
+=======
+  background-image: url(https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'segoe ui';
+}
+
+.nav {
+  height: 50px;
+  width: 100%;
+  background-color:#333333;
+  position: relative;
+}
+
+.nav > .nav-header {
+  display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav > .nav-btn {
+  display: none;
+}
+
+.nav > .nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+>>>>>>> d1c7ad6d7ba31ab61a41937e4f653cb86dfb6ba4
 
 }
 
+<<<<<<< HEAD
+=======
+.nav > .nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+@media (max-width:600px) {
+  .nav > .nav-btn {}
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 13px;
+  }
+  .nav > .nav-btn > label:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .nav > .nav-btn > label > span {
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 2px solid #eee;
+  }
+  .nav > .nav-links {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .nav > .nav-links > a {
+    display: block;
+    width: 100%;
+  }
+
+
+.container {
+  position: relative;
+  left: 50px;
+  padding-bottom: 150px;
+  background-color: ;
+>>>>>>> d1c7ad6d7ba31ab61a41937e4f653cb86dfb6ba4
 }
 
 .carousel-inner {
@@ -42,6 +141,10 @@ ul.three{
 }
 p {
   margin: 2px 0;
+<<<<<<< HEAD
+=======
+
+>>>>>>> d1c7ad6d7ba31ab61a41937e4f653cb86dfb6ba4
 }
 
 
@@ -54,6 +157,7 @@ p {
   .divMainLeft {
     left: 150px;
   }
+<<<<<<< HEAD
 
   .table {
     display: flex;
@@ -276,6 +380,9 @@ p {
   }
 
   .table {
+=======
+.table {
+>>>>>>> d1c7ad6d7ba31ab61a41937e4f653cb86dfb6ba4
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
@@ -536,6 +643,7 @@ p {
     text-align: center;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
     border-radius: 100%;
+
   }
 
   button {
@@ -552,6 +660,7 @@ p {
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
     margin-bottom: 10px;
   }
+
 
   fieldset {
     margin-bottom: 30px;
@@ -573,20 +682,7 @@ p {
     display: inline;
   }
 
-  .number {
-    background-color: #5fcf80;
-    color: #fff;
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    font-size: 0.8em;
-    margin-right: 4px;
-    line-height: 30px;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
-    border-radius: 100%;
-  }
-
+  
 
   form {
     max-width: 480px;
