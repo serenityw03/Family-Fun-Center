@@ -1,10 +1,5 @@
 body {
-<<<<<<< HEAD
-
 background-image: url("https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg");
-=======
-  background-image: url("https://images.homedepot-static.com/productImages/6ef94017-4d0b-416a-adde-69deda2176cf/svn/brewster-wallpaper-2686-22040sam-64_1000.jpg");
->>>>>>> 6be4a141da6f8828430a136ee490fe5eebabc4ce
   height: 100%;
 }
 
@@ -14,8 +9,7 @@ background-image: url("https://images.homedepot-static.com/productImages/6ef9401
   padding-top: 15px;
   margin: 0px auto;
   text-align: center;
-<<<<<<< HEAD
-background-color: #c2c2d6;
+  background-color: #c2c2d6;
 font-size: 30px;
 text-decoration-color: white;
 
@@ -61,15 +55,12 @@ p {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-
-=======
-  background-color: #c2c2d6;
-  font-size: 30px;
-  text-decoration-color: white;
+      background-color: #c2c2d6;
+      font-size: 30px;
+      text-decoration-color: white;
 
   .divHeader {
     background-color: white;
->>>>>>> 6be4a141da6f8828430a136ee490fe5eebabc4ce
   }
 
   .container {
@@ -150,8 +141,6 @@ p {
       background: #ff9966;
     }
 
-<<<<<<< HEAD
-
   button {
     padding: 19px 39px 18px 39px;
     color: #FFF;
@@ -211,7 +200,6 @@ p {
   .footer {
     top: 150px;
   }
-=======
     .yellow {
       background: #ffff66;
     }
@@ -433,4 +421,3 @@ p {
       form {
         max-width: 480px;
       }
->>>>>>> 6be4a141da6f8828430a136ee490fe5eebabc4ce
