@@ -5,12 +5,12 @@ body {
 
 .divNavigation {
   display: inline;
-  height: 60px;
+  height: 70px;
   padding-top: 15px;
   margin: 0px auto;
   text-align: center;
   background-color: #c2c2d6;
-  font-size: 30px;
+  font-size: 65px;
   text-decoration-color: white;
 
   .divHeader {
@@ -87,3 +87,6 @@ body {
     .col-1-8 {
       width: 12.5%;
     }
+.col-sm-10{
+  border-bottom: 5px;
+}
