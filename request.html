@@ -74,12 +74,13 @@
     <form action="/action_page.php" target="_blank">
       <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="number" min="1" max="3" placeholder="How many people" required name="1-3"></p>
-      <label for="duration">Room</label>
-      <input type="radio" name="duration" value="louis1" checked>Louis
-      <input type="radio" name="duration" value="hamilton1">Hamilton
-      <input type="radio" name="duration" value="atrium1">Atrium
-      <input type="radio" name="duration" value="Butler1">Butler
-      </select>
+      <label for="">Room</label>
+          <select>
+            <option value="Louis2" selected>Louis</option>
+            <option value="hamilton1">Hamilton</option>
+            <option value="atrium1">Atrium</option>
+            <option value="butler1">Butler</option>
+          </select>
       <p><input class="w3-input w3-padding-16 w3-border" type="date" placeholder="Arrive" required name="date" value="2018-12-17"></p>
       <p><input class="w3-input w3-padding-16 w3-border" type="date" placeholder="Departure" required name="date"value="2018-12-23"
          <label for="duration">Breakfast?</label>
@@ -90,6 +91,7 @@
     </form>
   </div>
 </div>
+
   <footer>
           <div class="google-maps">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d103754.63320905669!2d-88.784294!3d35.644184!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ea0e777398a3b%3A0xed6b7fc7c69c126f!2s519+N+Highland+Ave%2C+Jackson%2C+TN+38301!5e0!3m2!1sen!2sus!4v1452117911616"
