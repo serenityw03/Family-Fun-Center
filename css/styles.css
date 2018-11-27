@@ -91,53 +91,96 @@ body {
   border-bottom: 5px;
 }
 
-
-.social {
-	margin: 0 auto;
-	width: 500px;
-	text-align: center;
-	padding: 50px;
+.container {
+  width: 100%;
+  display: table;
+  margin: 0;
 }
 
-[class^="icon-btn"] /*.icon-btn*/ {
-	height: 75px;
-	width: 75px;
-	border: 0;
-	color: #fff;
-	cursor: pointer;
-	font-size: 40px;
-	line-height: 75px;
-	transition: ease-in-out .3s;
-	border-radius: 50px;
-	margin-left: 10px;
-	background-color: #fff;
-}
-
-
-
-.facebook {
-	color: #3B5998;
-}
-
-
-.instagram {
-	color: #cc66ff;
+nav a {
+  display: table-cell;
+  color: #fff;
+  width: 14.2%;
+  text-align: center;
+  font-size: 2em;
+  @media (max-width: 768px) {
+    font-size: 1.5em;
+  }
+  padding:.5em;
+  &:first-child {
+    border-radius: 5px 0 0 5px;
+    @media (max-width: 768px) {
+      border-radius: 0;
+    }
+  }
+  &:last-child {
+    border-radius: 0px 5px 5px 0px;
+    @media (max-width: 768px) {
+      border-radius: 0;
+    }
+  }
 }
 
 
-.icon-btn:hover {
-	transform: scale(1.10);
-	color: #FFFFFF;
+/*
+Here's a handy list of social media colors: https://goo.gl/7uo5TR
+*/
+
+$fb: #3b5998;
+
+/*Facebook*/
+
+$ig: #cc66ff;
+
+/*Instagram*/
+
+/*
+Setting equal widths dependent on the number of links.
+Add or remove as many as necessary.
+*/
+
+
+/* one item */
+
+nav a:first-child:nth-last-child(1) {
+  width: 100%;
 }
 
-.facebook:hover {
-	background-color: #3B5998;
+
+/* two items */
+
+nav a:first-child:nth-last-child(2),
+nav a:first-child:nth-last-child(2) ~ a {
+  width: 50%;
 }
 
-.instagram:hover {
-	background-color: #cc66ff;
+
+
+/*
+Assigning link background colors and setting the hover and active states. For quick adding of buttons, perform a search + replace on the 2 letter variable name.
+*/
+
+nav a.fb {
+  background: $fb;
+
+  &:hover {
+    color: #fff;
+    background: darken($fb, 10%)
+  }
+  &:active {
+    color: $fb;
+    background: darken($fb, 20%)
+  }
 }
 
-a.link {
-	color: inherit;
+nav a.ig {
+  background: $ig;
+  &:hover {
+    color: #fff;
+    background: #730099;
+  }
+  &:active {
+    color: #fff;
+    background:  #cc66ff;
+  }
 }
