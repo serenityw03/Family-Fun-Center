@@ -16,19 +16,13 @@ body {
   .divHeader {
     background-color: white;
 
-    .container {
-      left: 5px;
-      padding-bottom: 500px;
-    }
+
 
     .carousel-inner {
       width: 1000px;
       height: 600px;
     }
 
-    .divMainLeft {
-      left: 150px;
-    }
 
     .fancybox {
       bottom: 60px;
