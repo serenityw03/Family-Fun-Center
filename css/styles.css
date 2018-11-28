@@ -91,7 +91,7 @@ body {
   border-bottom: 5px;
 }
 
-.container {
+.col-sm-10 {
   width: 100%;
   display: table;
   margin: 0;
