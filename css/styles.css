@@ -16,13 +16,19 @@ body {
   .divHeader {
     background-color: white;
 
-
+    .container {
+      left: 5px;
+      padding-bottom: 500px;
+    }
 
     .carousel-inner {
       width: 1000px;
       height: 600px;
     }
 
+    .divMainLeft {
+      left: 150px;
+    }
 
     .fancybox {
       bottom: 60px;
@@ -83,98 +89,4 @@ body {
     }
 .col-sm-10{
   border-bottom: 5px;
-}
-
-.col-sm-10 {
-  width: 100%;
-  display: table;
-  margin: 0;
-}
-
-nav a {
-  display: table-cell;
-  color: #fff;
-  width: 14.2%;
-  text-align: center;
-  font-size: 2em;
-  @media (max-width: 768px) {
-    font-size: 1.5em;
-  }
-  padding:.5em;
-  &:first-child {
-    border-radius: 5px 0 0 5px;
-    @media (max-width: 768px) {
-      border-radius: 0;
-    }
-  }
-  &:last-child {
-    border-radius: 0px 5px 5px 0px;
-    @media (max-width: 768px) {
-      border-radius: 0;
-    }
-  }
-}
-
-
-/*
-Here's a handy list of social media colors: https://goo.gl/7uo5TR
-*/
-
-$fb: #3b5998;
-
-/*Facebook*/
-
-$ig: #cc66ff;
-
-/*Instagram*/
-
-/*
-Setting equal widths dependent on the number of links.
-Add or remove as many as necessary.
-*/
-
-
-/* one item */
-
-nav a:first-child:nth-last-child(1) {
-  width: 100%;
-}
-
-
-/* two items */
-
-nav a:first-child:nth-last-child(2),
-nav a:first-child:nth-last-child(2) ~ a {
-  width: 50%;
-}
-
-
-
-/*
-Assigning link background colors and setting the hover and active states. For quick adding of buttons, perform a search + replace on the 2 letter variable name.
-*/
-
-nav a.fb {
-  background: $fb;
-
-  &:hover {
-    color: #fff;
-    background: darken($fb, 10%)
-  }
-  &:active {
-    color: $fb;
-    background: darken($fb, 20%)
-  }
-}
-
-nav a.ig {
-  background: $ig;
-  &:hover {
-    color: #fff;
-    background: #730099;
-  }
-  &:active {
-    color: #fff;
-    background:  #cc66ff;
-  }
 }
