@@ -27,15 +27,14 @@ body {
     }
 
     .divMainLeft {
-      left: 150px;
+      left: 180px;
     }
-
     .fancybox {
       bottom: 60px;
     }
 
     p {
-      font-size: 10px;
+      font-size: 12px;
     }
 
     .grid {
@@ -93,7 +92,7 @@ body {
 .dropbtn {
     background-color: #333;
     color: black;
-    padding: 500px;
+    padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
