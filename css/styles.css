@@ -23,14 +23,15 @@ body {
     }
 
     .divMainLeft {
-      left: 180px;
+      left: 150px;
     }
+
     .fancybox {
       bottom: 60px;
     }
 
     p {
-      font-size: 12px;
+      font-size: 10px;
     }
 
     .grid {
@@ -85,41 +86,3 @@ body {
 .col-sm-10{
   border-bottom: 5px;
 }
-.dropbtn {
-    background-color: #333;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #333333;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown-content a:hover {background-color: black};
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #333;
