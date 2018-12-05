@@ -12,18 +12,18 @@ body {
   background-color: #c2c2d6;
   font-size: 65px;
   text-decoration-color: white;
+}
+
 
   .divHeader {
-    background-color: white;
+      background-color: white;
+  }
+
 
 
     .carousel-inner {
       width: 1000px;
       height: 600px;
-    }
-
-    .divMainLeft {
-      left: 150px;
     }
 
     .fancybox {
