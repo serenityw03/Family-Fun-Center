@@ -89,6 +89,50 @@ color:black;
   <button><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">Send Mail</a></button
       </form>
     </div>
+    <div class="c-forms-confirmation">
+      <div class="c-forms-confirmation-message c-html" sys:attach="dataview" dataview:data="{binding entry, source={{ Cognito.Forms.model }} }"><span>
+        <p>Thank you for filling out the form. Your response has been recorded. &nbsp;We will be in contact soon.</p>
+      </span>
+    </div>
+    <div class="c-forms-form-details c-readonly">
+      <div class="c-forms-template" sys:attach="dataview" dataview:data="{binding entry, source={{ Cognito.Forms.model }} }">
+        <div class="c-section c-span-24">
+          <div class="c-name c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  ">Name</div>
+            <div class="c-editor"> </div>
+          </div>
+          <div class="c-email c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  ">Email</div>
+            <div class="c-editor"></div>
+          </div>
+          <div class="c-phone c-phone-us c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  ">Phone</div>
+            <div class="c-editor"></div>
+          </div>
+          <div class="c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-editor c-html"><p><strong>Interested in:</strong></p>
+            </div>
+          </div>
+          <div class="c-choice-checkboxes c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  "></div>
+            <div class="c-editor"></div>
+          </div>
+          <div class="c-date-date c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  ">Do you have a specific date in mind?</div>
+            <div class="c-editor"></div>
+          </div>
+          <div class="c-text-multiplelines c-field c-col-1 c-sml-col-1 c-span-24 c-sml-span-12">
+            <div class="c-label  ">Questions / Comments</div>
+            <div class="c-editor"><div class="c-content"></div>
+          </div>
+        </div>
+      </div>
+      <div id="c-recaptcha-div13"></div>
+      <div class="c-forms-error"><div class="c-validation"></div>
+    </div>
+  </div>
+</div>
+</div>
   </div>
   <style>
 
