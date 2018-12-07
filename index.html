@@ -34,7 +34,7 @@
 
 
 <body>
-  <!-- All Page Content Goes Here -->
+
 
   <div class="divHeader">
     <img src="http://www.highlandplace.com/images/highland-place-logo.png" alt="logo" style="width:400px;background-color:#333333;">
@@ -99,6 +99,11 @@
 { float: center;
 width: 202px;
 height: 80px;}
+
+.btn-block {
+  background-color: white;
+}
+
 
 
 
@@ -206,7 +211,7 @@ height: 80px;}
 
     <div class="w3-display-left w3-padding w3-col l6 m8">
       <div class="w3-container w3-red">
-        <h2><i class="fa fa-bed w3-margin-right"></i>Hotel Name</h2>
+        <h2><i class="fa fa-bed w3-margin-right"></i></h2>
       </div>
       <div class="w3-container w3-white w3-padding-16">
         <form action="/action_page.php" target="_blank">
@@ -230,8 +235,10 @@ height: 80px;}
               <input class="w3-input w3-border" type="number" value="0" name="Kids" min="0" max="6">
             </div>
           </div>
-          <button class="w3-button w3-dark-grey" type="submit"><i class="fa fa-search w3-margin-right"></i> Search availability</button>
-        </form>
+          <form id="myform" >
+            <button class="btn btn-lg btn-primary btn-block" onclick="alert('Thank You for your request. The owner will contact you shortly')" type="submit"><a href="index.html">Request</a></button>
+          </form>
+
       </div>
     </div>
     <!-- Left and right controls -->
