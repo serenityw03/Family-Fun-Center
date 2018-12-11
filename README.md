@@ -1,4 +1,4 @@
-<h1>Website for Highland Place Bed and Breakfast Inn</h1>
+Website for Highland Place Bed and Breakfast Inn
 
 <h2>Highland Bed and Breakfast Inn</h2>
 
@@ -22,4 +22,4 @@ Website Feature:
 
 <li>Our client's had an description on why to choose them. We decided to incorporate a slideshow of the rooms and breakfast as a visual of what to expect.</li>
 
-<li> Highland Place Bed and Breakfast can be used in many ways. On the request instead of just room, you can request for event as well. You will then recieve
+<li> Highland Place Bed and Breakfast can be used in many ways. On the request instead of just room, you can request for an event as well. You will then receive an immediate notification of our recognition.</li>
