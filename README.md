@@ -1,6 +1,6 @@
-Website for Highland Place Bed and Breakfast Inn
+<h1>Website for Highland Place Bed and Breakfast Inn</h1>
 
-<h1>Highland Bed and Breakfast Inn</h1>
+<h2>Highland Bed and Breakfast Inn</h2>
 
 A productive website by Serenity Williams and Tiana martin
 
@@ -16,3 +16,10 @@ My partner, Serenity Williams, and I, Tiana Martin, created this website for Hig
 This website was created to intrigue those out of town on business or tourist. Also, if you need a elegant venue for special occasions.
 
 Website Feature:
+
+<ul>
+<li>On our client's original website, the room and events page were all unorganized together. We have rearranged it to were you have the rooms and events separated.</li>
+
+<li>Our client's had an description on why to choose them. We decided to incorporate a slideshow of the rooms and breakfast as a visual of what to expect.</li>
+
+<li> Highland Place Bed and Breakfast can be used in many ways. On the request instead of just room, you can request for event as well. You will then recieve
